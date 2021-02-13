@@ -3,9 +3,9 @@ let useLowerCase;
 let useUpperCase;
 let useNumber;
 let useSymbol;
-/*
-document.querySelector("#generate").addEventListener("click", writePassword)
 
+document.querySelector("#generate").addEventListener("click", writePassword)
+/*
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
