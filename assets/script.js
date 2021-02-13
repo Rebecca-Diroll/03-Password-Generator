@@ -31,7 +31,7 @@ function userInput() {
     useNumber = confirm("Include numbers?");
     useSymbol = confirm("Include symbols?");
 }
-/*
+
 const lowerCaseCharCodes = arrayFromLowToHigh(97, 122);
 const upperCaseCharCodes = arrayFromLowToHigh(65, 90);
 const numberCharCodes = arrayFromLowToHigh(48, 57);
@@ -42,7 +42,7 @@ const symbolCharCodes = arrayFromLowToHigh(33, 47).concat(
   ).concat(
     arrayFromLowToHigh(123, 126)
   );
-
+/*
 function arrayFromLowToHigh(low, high) {
   const array = []
   for (let i = low; i <= high; i++) {
