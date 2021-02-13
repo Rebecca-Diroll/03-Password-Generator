@@ -42,7 +42,7 @@ const symbolCharCodes = arrayFromLowToHigh(33, 47).concat(
   ).concat(
     arrayFromLowToHigh(123, 126)
   );
-/*
+
 function arrayFromLowToHigh(low, high) {
   const array = []
   for (let i = low; i <= high; i++) {
@@ -50,7 +50,7 @@ function arrayFromLowToHigh(low, high) {
   }
   return array
 }
-
+/*
 function characterOptions(passwordLength) {
   let charCodes = [];
   if (useLowerCase) charCodes = charCodes.concat(lowerCaseCharCodes);
