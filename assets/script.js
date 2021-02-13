@@ -12,13 +12,13 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
-
+*/
 function generatePassword() {
   userInput();
   var output = characterOptions(passwordLength);
   return output;
 }
-*/
+
 function userInput() {
     passwordLength = prompt("Number of Characters? Choose a number between 8 and 128.");
     passwordLength = parseInt(passwordLength)
