@@ -18,7 +18,7 @@ function generatePassword() {
   var output = characterOptions(passwordLength);
   return output;
 }
-
+*/
 function userInput() {
     passwordLength = prompt("Number of Characters? Choose a number between 8 and 128.");
     passwordLength = parseInt(passwordLength)
@@ -31,7 +31,7 @@ function userInput() {
     useNumber = confirm("Include numbers?");
     useSymbol = confirm("Include symbols?");
 }
-
+/*
 const lowerCaseCharCodes = arrayFromLowToHigh(97, 122);
 const upperCaseCharCodes = arrayFromLowToHigh(65, 90);
 const numberCharCodes = arrayFromLowToHigh(48, 57);
