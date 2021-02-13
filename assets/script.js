@@ -50,7 +50,7 @@ function arrayFromLowToHigh(low, high) {
   }
   return array
 }
-/*
+
 function characterOptions(passwordLength) {
   let charCodes = [];
   if (useLowerCase) charCodes = charCodes.concat(lowerCaseCharCodes);
@@ -70,4 +70,3 @@ function characterOptions(passwordLength) {
 
   return passwordCharacters.join("");
 }
-*/
